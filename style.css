@@ -1,0 +1,561 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.left{
+    width: 60%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img{
+    margin-bottom: -40px;
+    width: 250px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.card input{
+    height: 30px;
+    margin: 10px;
+    width:50% ;
+}
+.card button{
+    width: 50%;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.left span{
+    color: white;
+    font-size: 16px;
+}
+.left a{
+    color: red;
+}
+.right{
+    width: 40%;
+    height: 100vh;
+    background-image: url(./images/copy.png);
+    background-position: center;
+    background-size: cover;
+}
+.last #last{
+    padding-right: 230px;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(./images/IN-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_34324b52-d094-482b-8c2a-708dc64c9065_small.jpg);
+    border-bottom: 10px solid gray;
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    padding-inline: 90px;
+    justify-content: space-between;
+} 
+.nav-bar img{
+    width: 180px;
+    height: 100px;
+}
+.nav-bar button{
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    color: white;
+    border: 1px solid rgb(126, 121, 121);
+    background-color: rgba(52, 50, 50, 0.507);
+}
+#sign{
+    background-color: red;
+    width: 90px;
+   
+}
+.text-part{
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 180px;
+    align-items: center;
+}
+.text-part h1{
+    font-size: 70px;
+    line-height: 90px;
+    /* weight:400px */
+    
+}
+.text-part h6{
+    font-size: 40px;
+    line-height: 80px;
+}
+.text-part p{
+    font-size: 25px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.text-part input{
+  
+    width: 350px;
+    height: 50px;
+padding-left: 20px;
+border: 2px solid rgb(145, 138, 138);
+border-radius: 4px;
+background-color: rgba(24, 22, 22, 0.432);
+}
+.text-part button{
+    background-color: red;
+    color: white;
+    font-weight: 400px;
+    font-size: 20px;
+    height: 50px;
+    border: none;
+    width: 150px;
+    border-radius: 4px;
+    border: 10px;
+}
+ 
+
+/*tv section */
+ 
+
+.container2{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    border-bottom: 10px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ .text-2{
+    width: 50%;
+    height: auto;
+    padding-left: 30px;
+    
+ }
+ .text-2 h1{
+    font-size: 60px;
+ }
+ .text-2 p{
+    font-size: 30px;
+  line-height: 60px;
+ }
+ 
+ .image{
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+   
+ }
+ .image img{
+    width: 60%;
+    background-position: center;
+    background-size: cover;
+ }
+
+ /* faq  */
+ .faq-section{
+    width: 100%;
+    height:auto;
+    background-color: black;
+    color: white;
+    border-bottom: 10px solid gray;
+ }
+ .faq-section h1{
+    font-size: 70px;
+   text-align: center;
+ }
+ .faq-part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+ }
+.faq-box{
+    width: 70%;
+    height: 70px;
+    background-color: rgb(37, 36, 36);
+    display:flex;
+     align-items: center;
+     justify-content: center;
+    margin-block: 5px;
+}
+.faq-box span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 30px;
+    font-size: 30px;
+}
+#faq-box{
+    margin-top: 10px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+#faq-box input{
+    height: 40px;
+    width: 300px;
+    border: none;
+    background-color: rgba(102, 99, 99, 0.161);
+}
+#faq-box button{
+    height: 40px;
+    width: 120px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+/* foter */
+.foter-section{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border-bottom:10px solid gray ;
+}
+.foter-section h6{
+   margin-left: 60px;
+   margin-block: 20px;
+    font-size: 15px;
+}
+
+.foter-ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.foter-ul li{
+    list-style: none;
+}
+ .foter-section ul li a{
+    color: white;
+    line-height: 50px;
+   
+   
+}
+.foter-section button{
+    width: 120px;
+    margin-left: 60px;
+    height: 40px;
+    background-color: rgba(112, 109, 109, 0.283);
+    color: white;
+}
+
+
+/* responsive */
+
+@media(max-width:480px) {
+    .container{
+        width: 100%;
+        height: 600px;
+        justify-content: center;
+    }
+    .nav-bar{
+        width: 100%;
+        padding: 10px;
+    }
+    .nav-bar button{
+        width: 50px;
+        height:40px;
+    
+    }
+    
+    #eng-btn{
+       
+        display: none;
+    }
+    #sign{
+        width: 70px;
+        height: auto;
+        font-size: 4px;
+    }
+    .text-part{
+        padding: 10px;
+        width: 100%;
+        height: auto;
+    }
+    .text-part h1{
+        
+        font-size: 35px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .text-part h6{
+        font-size: 25px;
+        text-align: center;
+        line-height: 30px;
+    }
+    .text-part p{
+        font-size: 15px;
+        text-align: center;
+        line-height: 20px;
+    }
+    .text-part span{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .text-part span input{
+        width: 60%;
+        margin-bottom: 10px;
+    }
+    
+    .container2{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .text-2{
+        width: 100%;
+        height: auto;
+        padding-block: 30px;
+    }
+    .text-2 h1{
+
+        font-size: 35px;
+    }
+    .text-2 p{
+        font-size: 20px;
+        line-height: 30px;
+      
+    }
+    .image{
+        width: 100%;
+        height: auto;
+    }
+    /* faq */
+    .faq-section{
+        width: 100%;
+        height: auto;
+    }
+    .faq-section h1{
+        font-size: 40px;
+    }
+    .faq-part{
+        width: 100%;
+        height: auto;
+    }
+    .faq-box{
+        width: 90%;
+    }
+    .faq-section p{
+        padding-inline: 30px;
+        
+    }
+    #faq-box{
+        flex-direction: column;
+        align-items: center;
+    }
+.foter-section{
+    width: 100%;
+    height: auto;
+}
+ }
+
+/*  responsive 768 */
+@media(max-width:768px) {
+    .container{
+        width: 100%;
+        height:auto;
+        justify-content: center;
+    }
+    .nav-bar{
+        width: 100%;
+        padding: 20px;
+        
+    }
+    #responsive-btn{
+        display: none;
+    }
+    .nav-bar button{
+        width: 100px;
+        height : 50px
+    
+    }
+    
+    #eng-btn{
+      
+        font-size: 20px;
+    }
+    #sign{
+        
+        font-size: 20px;
+    }
+    .text-part{
+        padding: 10px;
+        width: 100%;
+        height: auto;
+    }
+    .text-part h1{
+        
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+    }
+    .text-part h6{
+        font-size: 40px;
+        text-align: center;
+        line-height: 50px;
+    }
+    .text-part p{
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+    }
+    #span-1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    #span-1 input{
+        width: 430px;
+        height: 60px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .text-part button{
+        width: 250px;
+        height: 60px;
+        margin-bottom: 50px;
+    }
+    
+    .container2{
+        width: 100%;
+        height: 900px;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .text-2{
+        width: 100%;
+        height: auto;
+        padding-block: 30px;
+    }
+    .text-2 h1{
+
+        font-size: 70px;
+    }
+    .text-2 p{
+        font-size: 40px;
+        line-height: 50px;
+      
+    }
+    .image{
+        width: 100%;
+        height: auto;
+    }
+    /* faq */
+    .faq-section{
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+    .faq-section h1{
+        font-size: 40px;
+    }
+    .faq-part{
+        width: 100%;
+        height: auto;
+    }
+    .faq-box{
+        width: 90%;
+        
+    }
+    .faq-box span{
+        font-size: 40px;
+    }
+    .faq-section p{
+        padding-inline: 30px;
+       padding-top: 30px;
+        font-size: 30px;
+        
+        
+    }
+    #faq-box{
+         flex-direction: column; 
+        align-items: center;
+    
+    }
+    #faq-box input{
+        width: 420px;
+        height: 60px;
+        font-size: 30px;
+    } 
+    #faq-box button{
+        width: 200px;
+        height: 60px;
+        font-size: 20px;
+    }
+.foter-section{
+    width: 100%;
+    height: auto;
+}
+.foter-section h6{
+    font-size: 30px;
+}
+.foter-ul{
+    font-size: 30px;
+}
+.foter-section button{
+    font-size: 20px;
+    height: 40px;
+    margin-top: 30px;
+}
+ }
